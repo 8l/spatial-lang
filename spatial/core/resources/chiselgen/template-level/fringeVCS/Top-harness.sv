@@ -234,13 +234,13 @@ module test;
 
   initial begin
     /*** VCD & VPD dump ***/
-      $vcdplusfile("Top.vpd");
-      $vcdpluson (0, Top);
+      //$vcdplusfile("Top.vpd");
+      //$vcdpluson (0, Top);
 
 //      $dumpfile("Top.vcd");
 //      $dumpvars(0, Top);
 //      $vcdplusfile("Top.vpd");
-      sim_init();
+      //sim_init();
   end
 
   // 1. If io_dram_cmd_valid, then send send DRAM request to CPP layer
@@ -294,15 +294,15 @@ module test;
     io_genericStreamOut_ready = 1;
 
     if (tick()) begin
-      $vcdplusflush;
+      //$vcdplusflush;
 //      $dumpflush;
       $finish;
     end
 
     callbacks();
 
-    $vcdplusflush;
-    $dumpflush;
+    //$vcdplusflush;
+    //$dumpflush;
   end
 
 endmodule
