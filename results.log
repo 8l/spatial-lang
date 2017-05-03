@@ -71,3 +71,25 @@ Mon 01 May 2017 11:32:35 PM PDT BlackScholes_94371840_ip_16_ts_32768_op_1 Design
 Mon 01 May 2017 11:00:52 PM PDT GDA_384000_ip_16_ts_3200_op_6 Design ran for 295307943 cycles, status = 1 args=[384000 true] PASS: 1 (GDA)
 Mon 01 May 2017 11:00:53 PM PDT GDA_384000_ip_16_ts_6400_op_6 Design ran for 295443015 cycles, status = 1 args=[384000 true] PASS: 1 (GDA)
 Tue 02 May 2017 05:03:41 AM PDT GDA_384000_ip_16_ts_6400_op_10 Design ran for 177583553 cycles, status = 1 args=[384000 true] PASS: 1 (GDA)
+Tue 02 May 2017 08:46:00 PM PDT GDA_384000_ip_16_mp_2_ts_6400_op_6  args=[384000 true] 
+Tue 02 May 2017 08:45:56 PM PDT GDA_384000_ip_16_mp_2_ts_6400_op_6  args=[384000 true] 
+Tue 02 May 2017 08:45:59 PM PDT GDA_384000_ip_16_mp_2_ts_6400_op_10  args=[384000 true] 
+Tue 02 May 2017 09:01:20 PM PDT GDA_384000_ip_16_mp_2_ts_6400_op_6  args=[384000 true] 
+Tue 02 May 2017 08:45:57 PM PDT GDA_384000_ip_16_mp_4_ts_6400_op_8  args=[384000 true] 
+Tue 02 May 2017 08:46:01 PM PDT GDA_384000_ip_16_mp_4_ts_6400_op_8  args=[384000 true] 
+Tue 02 May 2017 09:41:42 PM PDT GDA_384000_ip_16_mp_2_ts_6400_op_6  args=[384000 true] 
+Tue 02 May 2017 09:41:39 PM PDT GDA_384000_ip_16_mp_2_ts_6400_op_6  args=[384000 true] 
+Tue 02 May 2017 09:41:40 PM PDT GDA_384000_ip_16_mp_4_ts_6400_op_8  args=[384000 true] 
+Tue 02 May 2017 09:41:41 PM PDT GDA_384000_ip_16_mp_2_ts_6400_op_10  args=[384000 true] 
+Tue 02 May 2017 09:41:43 PM PDT GDA_384000_ip_16_mp_4_ts_6400_op_8  args=[384000 true] 
+Tue 02 May 2017 11:56:22 PM PDT TPCHQ6_384_ip_2_ts_2000_op_1 Design ran for 1207 cycles, status = 1 args=[384 true] PASS: 0 (TPCHQ6)
+Tue 02 May 2017 11:58:31 PM PDT GDA_128_ip_16_ts_32_op_2  args=[128 true] 
+Wed 03 May 2017 01:11:42 AM PDT MatMult_inner_48_768_384_tsn_192_tsm_8_fpga_true_ip_16_mp_1_tsp_192_op_2  args=[48 768 384 true] 
+Wed 03 May 2017 01:17:31 AM PDT GDA_384000_ip_8_ts_192_fpga_true_op_2  args=[384000 true] 
+Wed 03 May 2017 01:21:17 AM PDT Kmeans_50_1536_pts_per_ld_96_ip_8_numcents_20_D_96_op_1  args=[50 1536 true] 
+Wed 03 May 2017 01:22:53 AM PDT Kmeans_50_1536_D_96_fpga_true_ip_8_numcents_20_pts_per_ld_96_op_1  args=[50 1536 true] 
+Wed 03 May 2017 01:23:26 AM PDT MatMult_inner_48_768_384_tsn_192_tsm_8_fpga_true_ip_16_mp_1_tsp_192_op_2  args=[48 768 384 true] 
+Wed 03 May 2017 02:14:31 AM PDT SMV_3840_ip_16_pp_3840_NNZ_60_ts_384_op_1  args=[3840 true] 
+Wed 03 May 2017 01:27:45 AM PDT MatMult_inner_48_768_384_tsn_192_tsm_8_fpga_false_ip_16_mp_1_tsp_192_op_2 Design ran for 444839 cycles, status = 1 args=[48 768 384 true] PASS: 1 (MatMult_inner)
+Wed 03 May 2017 02:01:55 AM PDT LogReg_5_1536_ip_4_fpga_true_ts_192_dim_192_op_4 Design ran for 218840 cycles, status = 1 args=[5 1536 true] PASS: 0 (LogReg)
+Wed 03 May 2017 01:56:04 AM PDT MatMult_inner_48_768_384_tsn_192_tsm_8_fpga_true_ip_16_mp_1_tsp_192_op_2 Design ran for 399042 cycles, status = 1 args=[48 768 384 true] PASS: 1 (MatMult_inner)
